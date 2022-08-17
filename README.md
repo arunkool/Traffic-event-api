@@ -32,12 +32,11 @@ the above command will reach gsfh mode, where please run the below 2 commands
 	or
 	java -jar event-0.0.1-SNAPSHOT.jar (I already have the jar of the application path)
 	
-
-Please visit the swagger page to find out the REST-API endpoints http://localhost:9191/swagger-ui/index.html
-
-1. http://localhost:9191/events/save to store and process the events
-2. http://localhost:9191/violations/summary 
-3. http://localhost:8080/violations/payFine/{violationId} to cross check the fineSummary
+3. http://localhost:9191/swagger-ui/index.html
+ Rest end points,
+	1. http://localhost:9191/events/save to store and process the events
+	2. http://localhost:9191/violations/summary 
+	3. http://localhost:8080/violations/payFine/{violationId} to cross check the fineSummary
 
 Technologies involved,
 
