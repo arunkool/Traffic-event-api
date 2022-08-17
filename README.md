@@ -3,6 +3,8 @@ Traffic Management Springboot API
 
 Spring boot rest api to store and process traffic events with the help of Apache geode (in-memory data structure) as a data management.
 
+Run the Application :
+
 1. Using docker image for apache geode
  
  please run the following command in gitbash or terminal
