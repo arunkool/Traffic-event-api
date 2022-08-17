@@ -15,6 +15,7 @@ Spring boot rest api to store and process traffic events with the help of Apache
 	docker run -it -p 10334:10334 -p 40404:40404 -p 1099:1099 -p 7070:7070 -p 7575:7575 apachegeode/geode
 	
 the above command will reach gsfh mode, where please run the below 2 commands
+
   c. Start locator
   
 	start locator --name=LocatorOne --log-level=config --hostname-for-clients=localhost
@@ -38,6 +39,7 @@ Please visit the swagger page to find out the REST-API endpoints http://localhos
 2. http://localhost:9191/violations/summary 
 3. http://localhost:8080/violations/payFine/{violationId} to cross check the fineSummary
 
+*********************FYI*************************
 I already implement the docker file and docker-compose.yaml , you can find in the project , where I found some issues with ssl configurations.
 I push the project and working on to fix the issue, then
 
