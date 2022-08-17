@@ -4,8 +4,6 @@ import com.sensys.event.dto.EventDto;
 import com.sensys.event.entity.Event;
 import com.sensys.event.enums.EventType;
 import com.sensys.event.repository.EventRepository;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.stereotype.Service;
@@ -16,9 +14,6 @@ import static java.util.Map.entry;
 
 @Service
 public class EventService {
-
-    Logger log = LoggerFactory.getLogger(EventService.class);
-
 
     @Autowired
     private EventRepository eventRepository;

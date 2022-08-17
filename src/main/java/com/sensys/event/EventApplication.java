@@ -6,7 +6,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.data.gemfire.config.annotation.*;
+import org.springframework.data.gemfire.config.annotation.ClientCacheApplication;
+import org.springframework.data.gemfire.config.annotation.EnableClusterConfiguration;
+import org.springframework.data.gemfire.config.annotation.EnableEntityDefinedRegions;
+import org.springframework.data.gemfire.config.annotation.EnablePdx;
 import org.springframework.data.gemfire.repository.config.EnableGemfireRepositories;
 import org.springframework.geode.config.annotation.EnableClusterAware;
 import org.springframework.geode.config.annotation.UseMemberName;
@@ -14,8 +17,6 @@ import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
 import java.util.concurrent.Executor;
-
-import static org.springframework.data.gemfire.config.annotation.EnableSsl.Component.*;
 
 
 @EnablePdx

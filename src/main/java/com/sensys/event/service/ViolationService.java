@@ -4,10 +4,7 @@ import com.sensys.event.entity.FineSummary;
 import com.sensys.event.entity.Violation;
 import com.sensys.event.exception.ViolationNotFoundException;
 import com.sensys.event.repository.ViolationRepository;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.gemfire.listener.annotation.ContinuousQuery;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
