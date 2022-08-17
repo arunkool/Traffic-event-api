@@ -39,6 +39,17 @@ Please visit the swagger page to find out the REST-API endpoints http://localhos
 2. http://localhost:9191/violations/summary 
 3. http://localhost:8080/violations/payFine/{violationId} to cross check the fineSummary
 
+Technologies involved,
+
+1.SpringBoot Rest Application with Async 
+2.Used Spring geode
+3.Used Spring validation,
+4.Used global exception handling
+5.Used Spring AOP
+6.Used OpenAPI for Swagger
+7.Used Docker file and Docker compose for containerization
+8.Developed unit test cases using Mockito
+
 FYI :
 I already implement the docker file and docker-compose.yaml , you can find in the project , where I found some issues with ssl configurations.
 I push the project and working on to fix the issue, then
