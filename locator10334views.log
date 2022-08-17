@@ -1,0 +1,4 @@
+
+[info 2022/08/15 14:54:31.089 CEST <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.56(SpringBasedCacheServerApplication:19384)<ec><v0>:41000|0] members: [192.168.1.56(SpringBasedCacheServerApplication:19384)<ec><v0>:41000{lead}]
+
+[info 2022/08/15 14:55:20.161 CEST <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.1.56(SpringBasedCacheServerApplication:7808)<ec><v0>:41000|0] members: [192.168.1.56(SpringBasedCacheServerApplication:7808)<ec><v0>:41000{lead}]
