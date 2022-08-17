@@ -39,7 +39,7 @@ Please visit the swagger page to find out the REST-API endpoints http://localhos
 2. http://localhost:9191/violations/summary 
 3. http://localhost:8080/violations/payFine/{violationId} to cross check the fineSummary
 
-*********************FYI*************************
+FYI :
 I already implement the docker file and docker-compose.yaml , you can find in the project , where I found some issues with ssl configurations.
 I push the project and working on to fix the issue, then
 
